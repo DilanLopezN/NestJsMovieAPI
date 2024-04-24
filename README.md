@@ -5,7 +5,7 @@ Esta é uma API construída com NestJS, documentada usando Swagger, utilizando D
 ## Pré-requisitos
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [Nest.js](https://nestjs.com/)
+- [Nest.js](https://nestjs.com/) (Nunca utilizei NestJs e meu primeiro projeto completo usando)
 - [TypeORM](https://typeorm.io/)
 - [Swagger](https://swagger.io/)
 - [Docker](https://www.docker.com/)
@@ -19,7 +19,7 @@ Esta é uma API construída com NestJS, documentada usando Swagger, utilizando D
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/sua-api.git
+   git clone git@github.com:DilanLopezN/NestJsMovieAPI.git
    ```
 
 2. Navegue até o diretório do projeto:
@@ -50,12 +50,12 @@ Esta é uma API construída com NestJS, documentada usando Swagger, utilizando D
 
 ### Localmente (sem Docker)
 
-1. Certifique-se de que o PostgreSQL e o Redis estejam em execução em sua máquina, ou ajuste as configurações de conexão nos arquivos de configuração (`ormconfig.json` para PostgreSQL e `src/redis/redis.service.ts` para Redis).
+1. Certifique-se de que o PostgreSQL e o Redis estejam em execução em sua máquina, ou ajuste as configurações de conexão nos arquivos de configuração ("Módulo do PostgreSQL na pasta database/database.module, Redis está no app.module").
 
 2. Inicie a aplicação:
 
    ```bash
-   npm start
+   npm run start:dev
    ```
 
 
