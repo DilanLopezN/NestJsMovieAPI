@@ -34,14 +34,6 @@ Esta é uma API construída com NestJS, documentada usando Swagger, utilizando D
    npm install
    ```
 
-### Configuração do ambiente
-
-Copie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente conforme necessário:
-
-```bash
-cp .env.example .env
-```
-
 ## Uso
 
 ### Com Docker
